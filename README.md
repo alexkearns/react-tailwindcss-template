@@ -1,4 +1,6 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# react-tailwindcss-template
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). It comes pre-set up with [Tailwind](https://tailwindcss.com) using PostCSS to process it.
 
 ## Available Scripts
 
@@ -25,7 +27,13 @@ It correctly bundles React in production mode and optimizes the build for the be
 The build is minified and the filenames include the hashes.<br />
 Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### `npm run build:css`
+
+Builds the css for production to the `src` folder.
+
+### `npm run watch:css`
+
+Builds the css for production to the `src` folder and subsequently watches for changes.
 
 ### `npm run eject`
 
